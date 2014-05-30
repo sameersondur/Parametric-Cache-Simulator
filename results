@@ -1,0 +1,183 @@
+=================================================
+=================================================
+CASE 1 : Without victim cache
+=================================================
+
+Enter the cache size in bytes:
+2048
+
+Enter the associativity in the powers of 2: 
+4
+
+Enter the block size in the powers of 2 : 
+16
+
+Enter:
+0 for Write Back with Write Allocate policy.
+1 for Write through with no Write Allocate policy.
+0
+
+Enter the number of victim cache blocks.
+0
+
+The number of accesses is 37424
+-----------------------
+------------------------
+-----------------------
+=====  Simulation Report ======
+------------------------
+-----------------------
+
+
+Number of L1 reads: 26166
+Number of L1 read misses: 25827
+Number of Victim Cache Reads: 0
+Number of victim cache read misses: 0
+Number of L1 writes: 11258
+Number of L1 write misses 11165
+Number of victim cache writes: 0
+Number of victim cache write misses: 0
+L1 miss rate 0.988457
+Victim cache miss rate 0.000000
+Total memory traffic to/from main memory: 37424
+-------------------
+-----------------
+
+
+===============================================================
+===============================================================
+CASE 2: With victim cache
+===============================================================
+
+Enter the cache size in bytes:
+2048
+
+Enter the associativity in the powers of 2: 
+4
+
+Enter the block size in the powers of 2 : 
+16
+
+Enter:
+0 for Write Back with Write Allocate policy.
+1 for Write through with no Write Allocate policy.
+0
+
+Enter the number of victim cache blocks.
+4
+
+The number of accesses is 37424
+-----------------------
+------------------------
+-----------------------
+=====  Simulation Report ======
+------------------------
+-----------------------
+
+
+Number of L1 reads: 26166
+Number of L1 read misses: 15858
+Number of Victim Cache Reads: 15858
+Number of victim cache read misses: 15855
+Number of L1 writes: 11258
+Number of L1 write misses 7283
+Number of victim cache writes: 7283
+Number of victim cache write misses: 7282
+L1 miss rate 0.618347
+Victim cache miss rate 0.999827
+Total memory traffic to/from main memory: 37424
+-------------------
+-----------------
+
+
+=================================================
+=================================================
+CASE 3 : Without victim cache
+=================================================
+
+Enter the cache size in bytes:
+1024
+
+Enter the associativity in the powers of 2: 
+4
+
+Enter the block size in the powers of 2 : 
+16
+
+Enter:
+0 for Write Back with Write Allocate policy.
+1 for Write through with no Write Allocate policy.
+0
+
+Enter the number of victim cache blocks.
+0
+
+The number of accesses is 37424
+-----------------------
+------------------------
+-----------------------
+=====  Simulation Report ======
+------------------------
+-----------------------
+
+
+Number of L1 reads: 26166
+Number of L1 read misses: 26025
+Number of Victim Cache Reads: 0
+Number of victim cache read misses: 0
+Number of L1 writes: 11258
+Number of L1 write misses 11243
+Number of victim cache writes: 0
+Number of victim cache write misses: 0
+L1 miss rate 0.995832
+Victim cache miss rate 0.000000
+Total memory traffic to/from main memory: 37424
+-------------------
+-----------------
+
+
+=================================================
+=================================================
+CASE 4 : Without victim cache
+=================================================
+
+Enter the cache size in bytes:
+1024
+
+Enter the associativity in the powers of 2: 
+4
+
+Enter the block size in the powers of 2 : 
+16
+
+Enter:
+0 for Write Back with Write Allocate policy.
+1 for Write through with no Write Allocate policy.
+0
+
+Enter the number of victim cache blocks.
+4
+
+The number of accesses is 37424
+-----------------------
+------------------------
+-----------------------
+=====  Simulation Report ======
+------------------------
+-----------------------
+
+
+Number of L1 reads: 26166
+Number of L1 read misses: 17040
+Number of Victim Cache Reads: 17040
+Number of victim cache read misses: 17034
+Number of L1 writes: 11258
+Number of L1 write misses 7859
+Number of victim cache writes: 7859
+Number of victim cache write misses: 7855
+L1 miss rate 0.665322
+Victim cache miss rate 0.999598
+Total memory traffic to/from main memory: 37424
+-------------------
+-----------------
+
